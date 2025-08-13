@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
         glue = "org.example.api.stepdefinations",
         plugin = {"pretty", "html:target/cucumber-reports.html"},
         monochrome = true,
-        tags = "@LoginUser"
+        tags = "@GetPetByIdErrorHandling"
 )
 public class TestRunner {
 }

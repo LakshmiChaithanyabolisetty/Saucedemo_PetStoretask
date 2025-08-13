@@ -71,4 +71,4 @@ Feature: Pet Endpoints
 
     Examples:
       | petId | statusCode | errorMessage  |
-      | 1     | 404        | Pet not found |
+      | 67    | 404        | Pet not found |
