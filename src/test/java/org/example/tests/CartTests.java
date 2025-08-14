@@ -12,8 +12,8 @@ import org.openqa.selenium.WebDriver;
 @RunWith(SerenityRunner.class)
 public class CartTests {
 
-    @Managed
-    WebDriver driver;
+    @Managed(driver = "chrome")
+    WebDriver browser;
 
     @Steps
     CartSteps cartSteps;

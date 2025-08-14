@@ -13,7 +13,7 @@ public class LoginSteps {
 
     @Step("Open the login page")
     public void openLoginPage() {
-        loginPage.open();
+        loginPage.openAt("");
     }
 
     @Step("Login with username {0} and password {1}")

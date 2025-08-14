@@ -12,8 +12,8 @@ import org.openqa.selenium.WebDriver;
 @RunWith(SerenityRunner.class)
 public class LoginTests {
 
-    @Managed
-    WebDriver driver;
+    @Managed()
+    WebDriver browser;
 
     @Steps
     LoginSteps loginSteps;
